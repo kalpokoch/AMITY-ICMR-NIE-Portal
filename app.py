@@ -568,11 +568,6 @@ def main():
                             
                             # Store saved_id in session state for validation
                             st.session_state['saved_id'] = saved_id
-                            
-                            if saved_id:
-                                st.sidebar.success(f"🗄️ Prediction saved (ID: {saved_id[:8]}...)")
-                            else:
-                                st.sidebar.warning("⚠️ Could not save prediction to database")
                                 
                         except Exception as db_error:
                             # Don't let database errors break the prediction display
