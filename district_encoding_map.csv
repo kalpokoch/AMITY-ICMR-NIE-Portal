@@ -1,13 +1,7 @@
 ﻿encoded_value,district_name
 0,Adilabad
-0,Hanamkonda
-0,Jagtial
-0,Jangaon
-0,Jayashankar Bhupalpally
 0,Jogulamba Gadwal
 0,Mahabubabad
-0,Mahbubnagar
-0,Medchal-Malkajgiri
 0,Mulugu
 0,Nagarkurnool
 0,Peddapalli
@@ -15,45 +9,25 @@
 0,Kumuram Bheem Asifabad
 1,Agar-Malwa
 2,Agra
-2,Barabanki
-2,Maharajganj
-2,Shravasti
-2,Raebareli
-2,Lakhimpur Kheri
 3,Ahilyanagar
-4,Panchmahal
-4,Mehsana
 4,Vav-Tharad
-4,Aravalli
-4,Kutch
-4,Banaskantha
 4,Ahmedabad
-4,Sabarkantha
-4,Chhota Udaipur
-4,Dang
 5,Khawzawl
 5,Aizawl
 5,Saiha
 5,Hnahthial
 6,Deeg
-6,Didwana Kuchaman
 6,Phalodi
 6,Ajmer
-6,Sri Ganganagar
 7,Akola
 8,Alappuzha
 9,Aligarh
 10,Alipurduar
 11,Alirajpur
 12,Dr. B.R. Ambedkar Konaseema
-12,Nellore
 12,Alluri Sitharama Raju
 12,NTR
-12,YSR Kadapa
-13,Udham Singh Nagar
 13,Almora
-13,Rudraprayag
-13,Uttarkashi
 14,Alwar
 15,Hansi
 15,Ambala
@@ -61,33 +35,18 @@
 17,Amethi
 18,Amravati
 19,Amreli
-20,Firozpur
 20,Amritsar
-20,Sahibzada Ajit Singh Nagar
 21,Amroha
 22,Anakapalli
 23,Anand
 24,Ananthapuramu
 25,Anantnag
-26,Lepa Rada
-26,Pakke-Kessang
 26,Anjaw
-26,Upper Dibang Valley
 27,Annamayya
 28,Anugul
 29,Anuppur
-30,East Champaran
 30,Araria
-30,West Champaran
-30,Kaimur
-31,Tiruvarur
-31,Nilgiris
-31,Tiruvallur
 31,Ariyalur
-31,Thoothukudi
-31,Kanyakumari
-31,Tirupattur
-31,Kanchipuram
 32,Arvalli
 33,Arwal
 34,Ashoknagar
@@ -99,26 +58,16 @@
 40,Bageshwar
 41,Baghpat
 42,Bahraich
-43,Morigaon
 43,Bajali
-43,South Salmara-Mankachar
-43,Kamrup Metropolitan
 44,Baksa
 45,Balaghat
 46,Balangir
 47,Baleshwar
 48,Ballari
 49,Ballia
-50,Dantewada
 50,Balrampur-Ramanujganj
-50,Baloda Bazar
-50,Manendragarh-Chirmiri-Bharatpur
-50,Kanker
 50,Khairagarh-Chhuikhadan-Gandai
-50,Kabirdham
 50,Sarangarh-Bilaigarh
-50,Mohla-Manpur-Ambagarh Chowki
-50,Gariaband
 50,Sakti
 50,Balod
 51,Balodabazar-Bhatapara
@@ -173,11 +122,7 @@
 100,Birbhum
 101,Bishnupur
 102,Biswanath
-103,Seraikela-Kharsawan
-103,Hazaribag
-103,East Singhbhum
 103,Bokaro
-103,Sahibganj
 104,Bongaigaon
 105,Botad
 106,Boudh
@@ -804,28 +749,7 @@
 741,Nicobar
 741,South Andaman
 742,Kushavati
-743,Bangalore Rural
-743,Shimoga
-743,Chikmagalur
-743,Mysore
-743,Bangalore Urban
-743,Chikkaballapur
-743,Bagalkot
 744,Mauganj
-744,Narsinghpur
-744,Hoshangabad
-744,Khargone
-744,Agar Malwa
-744,Khandwa
-745,Ahmednagar
-745,Mumbai City
-745,Osmanabad
-746,Balasore
-746,Debagarh
-746,Jajpur
-746,Angul
-746,Jagatsinghpur
-746,Subarnapur
 747,Anupgarh
 748,Didwana-Kuchaman
 749,Dudu
