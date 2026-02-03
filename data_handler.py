@@ -183,13 +183,7 @@ class DataHandler:
                 'prediction_timestamp': datetime.utcnow(),
                 'model_primary': model_info.get('model1', '') if model_info else '',
                 'model_secondary': model_info.get('model2', '') if model_info else '',
-                'app_version': '2.0',
-                
-                # Keep encoded data for potential model retraining/analysis
-                'encoded_data': {
-                    'patient_encoded': patient_data,
-                    'prediction_encoded': prediction_result
-                }
+                'app_version': '2.0'
             }
             
             # Insert document
