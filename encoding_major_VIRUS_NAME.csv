@@ -1,4 +1,4 @@
-Original_Value,Encoded_Value
+Original,Encoded
 Chikungunya Virus,0
 Dengue Virus,1
 Enterovirus,2
@@ -6,7 +6,7 @@ Hepatitis A Virus,3
 Hepatitis B Virus,4
 Hepatitis C Virus,5
 Hepatitis E Virus,6
-Herpes simplex virus,7
+Herpes simplex virus 1/2,7
 Influenza A H1N1,8
 Influenza A H3N2,9
 Influenza B Victoria,10
