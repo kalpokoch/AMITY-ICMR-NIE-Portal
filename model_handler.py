@@ -345,7 +345,7 @@ class VirusPredictor:
     Loads bundled .pth files with model weights + preprocessing objects.
     """
     
-    def __init__(self, model1_path='models/streamlit_virus_model_Major.pth', 
+    def __init__(self, model1_path='models/MajorVirus(69).pth', 
                  model2_path='models/streamlit_virus_model_other.pth'):
         """
         Initialize predictor by loading both pretrained models.
