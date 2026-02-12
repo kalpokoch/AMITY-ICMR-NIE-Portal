@@ -398,6 +398,7 @@ class VirusPredictor:
             self.model1.load_state_dict(checkpoint1['model_state_dict'])
             self.model1.eval()
             self.preprocessing1 = checkpoint1['preprocessing']
+            self._normalize_imputer_state(self.preprocessing1)
             
             # Load Model 2 (Secondary - Other Viruses)
             checkpoint2 = _safe_torch_load(model2_path)
@@ -406,6 +407,7 @@ class VirusPredictor:
             self.model2.load_state_dict(checkpoint2['model_state_dict'])
             self.model2.eval()
             self.preprocessing2 = checkpoint2['preprocessing']
+            self._normalize_imputer_state(self.preprocessing2)
             
             return True
             
@@ -415,6 +417,22 @@ class VirusPredictor:
         except Exception as e:
             st.error(f"Error loading models: {e}")
             return False
+
+    @staticmethod
+    def _normalize_imputer_state(preprocessing):
+        """
+        Backfill SimpleImputer attributes for cross-version sklearn compatibility.
+        Older pickles may miss _fill_dtype, which newer versions access during transform.
+        """
+        for key in ('imp_cont', 'imp_bin'):
+            imputer = preprocessing.get(key)
+            if isinstance(imputer, SimpleImputer) and not hasattr(imputer, '_fill_dtype'):
+                if hasattr(imputer, '_fit_dtype'):
+                    imputer._fill_dtype = imputer._fit_dtype
+                elif hasattr(imputer, 'statistics_'):
+                    imputer._fill_dtype = np.asarray(imputer.statistics_).dtype
+                else:
+                    imputer._fill_dtype = np.dtype('float64')
     
     def preprocess_features(self, patient_data, preprocessing):
         """
